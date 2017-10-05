@@ -1,4 +1,4 @@
-#__Caesar Cipher__
+# __Caesar Cipher__
 
 ##*Pseudocódigo*
 1.	Iniciar
@@ -67,5 +67,9 @@
 
 33. Finalizar.
 
-###*Diagrama de Flujo*
+### *Diagrama de Flujo*
+Imagen png
 ![Diagrama Caesar](C:/Users/Viviana/Desktop/DiagramaCC.png "Diagrama Caesar")
+
+Enlace
+[Diagrama Ceasar Cipher](https://www.dropbox.com/s/g1gtlb901r8mwv8/DiagramaCC.png?dl=0)
