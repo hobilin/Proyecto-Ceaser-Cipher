@@ -2,14 +2,14 @@
 function whatToCaesar() {
   var answer;
   do {
-    answer = prompt('Si desea CIFRAR una frase, escriba 1. Si desea DESCIFRAR una frase, escriba 2');
+    answer = prompt('If you wish to CIPHER a phrase, enter 1. If you wish to decipher a phrase, enter 2');
     if (answer !== '') {
       if (answer === '1') {
         cipher();
       } else if (answer === '2') {
         decipher();
       } else {
-        alert('Ingrese una opción válida');
+        alert('Enter a valid option');
       }
     }
   } while (answer === '' || (answer !== '1' && answer !== '2'));
@@ -23,7 +23,7 @@ function whatToCaesar() {
     var answerCipher;
     // Do...while so that the prompt repeat itself until the condition is not longer met.
     do {
-      answerCipher = prompt('Por favor, escriba la frase que desea CIFRAR');
+      answerCipher = prompt('Please, enter the phrase you want to CIPHER');
       // checking if there is a number in the phrase.
     } while (/[0-9]/.test(answerCipher) === true);
     // creating var with allowed characters.
@@ -51,7 +51,7 @@ function whatToCaesar() {
     }
     strCipher = arrayAsciiC.join('');
     // alert with you phrase already ciphered.
-    alert('Tu frase cifrada es: ' + strCipher);
+    alert('Your ciphered phrase is: ' + strCipher);
   }
 
   /*
@@ -63,9 +63,9 @@ function whatToCaesar() {
     var answerDecipher;
     // Do...while so that the prompt repeat itself until the condition is not longer met.
     do {
-      answerDecipher = prompt('Por favor, escriba la frase que desea DESCIFRAR');
+      answerDecipher = prompt('Please, enter the phrase you want to DECIPHER');
     // checking if there is a number in the phrase.
-    } while (/[0-9]/.test(answerCipher) === true);
+    } while (/[0-9]/.test(answerDecipher) === true);
     // creating var with allowed characters.
     var answerDecipherChar = /[a-zA-Z]/;
     // creating var with special characters,
@@ -88,12 +88,12 @@ function whatToCaesar() {
       } else if (codeAscii >= 97 && codeAscii <= 122) {
         arrayAsciiC.push(String.fromCharCode(codeAscii - 97 - 7 + 97));
       } else {
-        alert('La frase escrita no es válida');
+        alert('The submited phrase is invalid');
       } 
       strDecipher = arrayAsciiD.join('');
     }
     // alert with you phrase already deciphered.
-    alert('Tu frase descifrada es ' + strDecipher);
+    alert('You deciphered phrase is: ' + strDecipher);
   }
 }
 
