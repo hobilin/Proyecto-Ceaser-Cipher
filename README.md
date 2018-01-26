@@ -1,6 +1,6 @@
 # __Caesar Cipher__
 
-##*Pseudocódigo*
+## *Pseudocódigo*
 1.	Iniciar
 
 2.	Crear función whatToCaesar().
