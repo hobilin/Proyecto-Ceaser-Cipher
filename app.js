@@ -93,7 +93,7 @@ function whatToCaesar() {
       strDecipher = arrayAsciiD.join('');
     }
     // alert with you phrase already deciphered.
-    alert('You deciphered phrase is: ' + strDecipher);
+    alert('Your deciphered phrase is: ' + strDecipher);
   }
 }
 
